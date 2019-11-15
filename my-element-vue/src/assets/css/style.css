@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.sty-container{
+    height: 100vh;
+}
+#app{
+    background: url('../images/bg_earth.jpg');
+    background-size: 100% 100%; 
+}
+/* 一级菜单背景图片 */
+.el-menu-sty .el-menu-item{
+    width: 72px;
+    height: 80px;
+    line-height: 128px;
+    text-align: center;
+    padding: 0;
+}
+.el-menu-item:focus, .el-menu-item:hover{
+    background-color: transparent !important;
+}
+.el-menu-header-Home{
+    background: url('../images/menu.png') no-repeat 0 0;
+}
+.el-menu-header-Home:hover{
+    background: url('../images/menu.png') no-repeat 0 -85px;
+}
+.el-menu-header-Wizard{
+    background: url('../images/menu.png') no-repeat -72px 0;
+}
+.el-menu-header-Wizard:hover{
+    background: url('../images/menu.png') no-repeat -72px -85px;
+}
+.el-menu-header-WAN{
+    background: url('../images/menu.png') no-repeat -144px 0;
+}
+.el-menu-header-WAN:hover{
+    background: url('../images/menu.png') no-repeat -144px -85px;
+}
+.el-menu-header-LAN{
+    background: url('../images/menu.png') no-repeat -216px 0;
+}
+.el-menu-header-LAN:hover{
+    background: url('../images/menu.png') no-repeat -216px -85px;
+}
+.el-menu-header-SMS{
+    background: url('../images/menu.png') no-repeat  -288px 0;
+}
+.el-menu-header-SMS:hover{
+    background: url('../images/menu.png') no-repeat -288px -85px;
+}
+.el-menu-header-WiFi{
+    background: url('../images/menu.png') no-repeat -360px 0;
+}
+.el-menu-header-WiFi:hover{
+    background: url('../images/menu.png') no-repeat -360px -85px;
+}
+.el-menu-header-Security{
+    background: url('../images/menu.png') no-repeat -504px 0;
+}
+.el-menu-header-Security:hover{
+    background: url('../images/menu.png') no-repeat -504px -85px;
+}
+.el-menu-header-System{
+    background: url('../images/menu.png') no-repeat -576px 0;
+}
+.el-menu-header-System:hover{
+    background: url('../images/menu.png') no-repeat -576px -85px;
+}
